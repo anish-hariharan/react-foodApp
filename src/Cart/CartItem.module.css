@@ -1,0 +1,38 @@
+.container{
+   display: flex;
+   flex-direction: row;
+}
+
+.food{
+    display: flex;
+    width: 100%;
+}
+
+.quantity {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    font-size: 1rem;
+}
+
+.span{
+    margin: 10px;
+}
+
+.button {
+    background-color: white;
+    border: 1px solid orange;
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.5rem;
+}
+
+.button:hover{
+    background-color: orange;
+}
+
+.order {
+   display: flex;
+   justify-content: center;
+}

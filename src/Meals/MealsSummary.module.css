@@ -1,0 +1,14 @@
+.heading{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 20px;
+}

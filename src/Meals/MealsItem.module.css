@@ -1,0 +1,70 @@
+.description{
+    font-weight: lighter;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.butCont{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    padding: 4px;
+    border-radius: 15px;
+    border: 0px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #781f19;
+    color: white;
+    padding: 5px;
+}
+
+.plus{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.add{
+    padding: 4px;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media (max-width:600px) {
+    .description{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form{
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,26 @@
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+.Container{
+    border-radius: 20px;
+    padding: 20px;
+    margin: 5px;
+    margin: 20px;
+    background-color: #EAEFF2;
+    color: #090A0E;
+    width: 60%;
+}
+
+.Container:hover{
+    background-color: #FF5733;
+    color:#EAEFF2 ;
+}
+
+
+@media (max-width:600px) {
+    .Container{
+        width: 100%;
+    }
+}

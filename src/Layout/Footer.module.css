@@ -1,0 +1,23 @@
+.footer{
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+    background-color:  #FF5733;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+}
+
+.copy{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.copyCont{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}

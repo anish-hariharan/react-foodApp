@@ -1,0 +1,31 @@
+.btnCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.gap{
+    margin: 5px;
+}
+
+.total {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1rem;
+}
+
+.para {
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.order{
+    display: flex;
+    justify-content: center;
+}
+
